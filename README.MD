@@ -7,6 +7,12 @@ It formalizes 564 out of 591 numbered resuls in the paper (95%) with 27 still op
 Of the 564 results, 329 were formalized as-stated or under the paper's intended conventions,
 and 235 required a repaired statement.
 
+### Repository layout
+
+- [src/](src/) contains the Lean library and vendored code. Use it as the Lean source root.
+- [audits/](audits/) contains standalone verification files. Some require the external project at the revision recorded in the file.
+- [PROGRESS.md](PROGRESS.md#checking-the-current-files) gives the build instructions and tracks manuscript coverage.
+
 ### Attribution
 
 Significant credit goes to [Neal Patel](github.com/thatnealpatel/grh) and [Ryan McCorvie](github.com/mccorvie/riemann-masullo)
