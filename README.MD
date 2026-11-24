@@ -7,6 +7,13 @@ It formalizes 564 out of 591 numbered resuls in the paper (95%) with 27 still op
 Of the 564 results, 329 were formalized as-stated or under the paper's intended conventions,
 and 235 required a repaired statement.
 
+### Tracking gaps
+
+[GAPS.MD](GAPS.MD) tracks manuscript claims that still need a proof or a corrected statement.
+When Lean verifies a repair, [OLD_GAPS.MD](OLD_GAPS.MD) records what failed in the manuscript,
+what the repair proves, and where to find the Lean proof. If a repair covers only part of a
+result, the remaining obligation stays in [GAPS.MD](GAPS.MD).
+
 ### Repository layout
 
 - [src/](src/) contains the Lean library and vendored code. Use it as the Lean source root.
