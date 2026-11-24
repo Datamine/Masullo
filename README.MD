@@ -22,7 +22,7 @@ result, the remaining obligation stays in [GAPS.MD](GAPS.MD).
 
 ### Attribution
 
-Significant credit goes to [Neal Patel](github.com/thatnealpatel/grh) and [Ryan McCorvie](github.com/mccorvie/riemann-masullo)
+Significant credit goes to [Neal Patel](https://github.com/thatnealpatel/grh) and [Ryan McCorvie](https://github.com/mccorvie/riemann-masullo)
 whose alternative auto-formalization projects were periodically drawn on by my formalizer.
 
 ### Pausing
