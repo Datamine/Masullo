@@ -1,0 +1,28 @@
+import RiemannMasullo.Ch05_ThetaZSpaces.Sec3b
+
+/-! Transitive axiom checks for Proposition 5.3.3.2 and Lemma 5.3.3.3.
+Run in original revision `3897f9497d5cff426d6548150bb3c67bc96d87eb` on Lean 4.36.0. -/
+
+#print axioms RiemannMasullo.realCoordinate_mul_puncturedTest
+#print axioms RiemannMasullo.complexCoordinate_mul_puncturedTest
+#print axioms RiemannMasullo.realCoordinate_mul_exponentialDecay
+#print axioms RiemannMasullo.complexCoordinate_mul_exponentialDecay
+#print axioms RiemannMasullo.realCoordinate_mul_allExponentialDecay
+#print axioms RiemannMasullo.complexCoordinate_mul_allExponentialDecay
+#print axioms RiemannMasullo.iteratedDeriv_puncturedTest_closedRange
+#print axioms RiemannMasullo.wirtinger_puncturedTest_closedRange
+#print axioms RiemannMasullo.iteratedDeriv_exponentialDecay
+#print axioms RiemannMasullo.iteratedDeriv_allExponentialDecay
+#print axioms RiemannMasullo.iteratedWirtinger_exponentialDecay
+#print axioms RiemannMasullo.iteratedWirtinger_allExponentialDecay
+#print axioms RiemannMasullo.realExponentialDecay_contDiffOn
+#print axioms RiemannMasullo.complexExponentialDecay_contDiffOn
+#print axioms RiemannMasullo.archimedeanWeightedSchwartz_frechet
+#print axioms RiemannMasullo.archimedeanWeightedSchwartz_separable
+#print axioms RiemannMasullo.archimedeanWeightedSchwartz_nuclear
+#print axioms RiemannMasullo.archimedeanWeightedSchwartz_tensor
+#print axioms RiemannMasullo.archimedeanFlatSchwartz_isClosed
+#print axioms RiemannMasullo.archimedeanFlatSchwartz_one_real
+#print axioms RiemannMasullo.archimedeanFlatSchwartz_one_complex
+#print axioms RiemannMasullo.archimedeanFlatSchwartz_restrict_equiv
+#print axioms RiemannMasullo.archimedeanFlatSchwartz_quasiCharacter_mul

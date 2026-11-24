@@ -1,0 +1,9 @@
+/.*/
+/.lake/
+/build/
+*.olean
+*.olean.private
+*.olean.server
+*.ilean
+*.trace
+/masullo.pdf

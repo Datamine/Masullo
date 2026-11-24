@@ -1,0 +1,15 @@
+import RiemannMasullo.Ch12_TraceGeometric.Sec1b
+
+/-! Run with `lake env lean` in original revision
+`cb3e092484c0e94d115634ce9f202433bdbd17be` on Lean 4.36.0. -/
+
+#print axioms RiemannMasullo.diagonal_mem_convolutionKernelRegularSet
+#print axioms RiemannMasullo.ae_diagonal_mem_globalLineSpectralKernelRegularSet
+#print axioms RiemannMasullo.ae_diagonal_mem_globalLineGeometricKernelRegularSet
+#print axioms RiemannMasullo.geometricTruncatedConvolution_trace_eq_integral_globalDiagonal
+#print axioms RiemannMasullo.spectralProjection_convolution_trace_eq_integral_globalDiagonal
+#print axioms RiemannMasullo.integrable_globalLineGeometricKernel_diagonal
+#print axioms RiemannMasullo.geometricTruncatedConvolution_trace_tendsto_integral_globalDiagonal
+
+#print axioms RiemannMasullo.spectralProjection_convolution_trace
+#print axioms RiemannMasullo.spectralLineKernel_hilbertSchmidt
